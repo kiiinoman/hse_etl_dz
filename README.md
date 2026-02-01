@@ -28,13 +28,14 @@
 RAW → PARSED → FLAT
 
 ## Структура проекта
-
+```xterm
 ├── airflow/dags/
 │   ├── simple_json_parser.py
 │   └── simple_xml_parser.py
 ├── db/init.sql
 ├── docker-compose.yaml
 └── Dockerfile
+```
 
 ## Запуск
 ```bash
