@@ -1,4 +1,5 @@
 # ETL Processes (Homework)
+Выполнил: Зуюнов Мухаммадаббос Азамович 
 ## Стек
 - Docker / Docker Compose  
 - PostgreSQL  
