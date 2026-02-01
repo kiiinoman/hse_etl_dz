@@ -39,6 +39,7 @@ RAW → PARSED → FLAT
 ## Запуск
 ```bash
 docker compose up --build
+```
 
 ## Сервисы
 
