@@ -1,7 +1,4 @@
 # ETL Processes (Homework)
-
-Учебный проект по курсу **«Процессы ETL»** (магистратура Data Engineering, ВШЭ).
-
 ## Стек
 - Docker / Docker Compose  
 - PostgreSQL  
@@ -54,6 +51,3 @@ SELECT * FROM pets_flat;
 SELECT * FROM nutrition_flat;
 SELECT * FROM daily_values;
 ```
-
-## Статус
-Проект реализует базовую ETL-логику и предназначен для учебных целей.
