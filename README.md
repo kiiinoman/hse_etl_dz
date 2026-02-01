@@ -2,15 +2,11 @@
 
 Учебный проект по курсу **«Процессы ETL»** (магистратура Data Engineering, ВШЭ).
 
----
-
 ## Стек
 - Docker / Docker Compose  
 - PostgreSQL  
 - Apache Airflow  
 - Python  
-
----
 
 ## Описание
 В проекте реализованы два ETL-процесса:
@@ -28,18 +24,11 @@
 - Задача: распарсить XML и нормализовать вложенные данные
 
 Используемый подход:
-```
 
 RAW → PARSED → FLAT
 
-```
-
----
-
 ## Структура проекта
-```
 
-.
 ├── airflow/dags/
 │   ├── simple_json_parser.py
 │   └── simple_xml_parser.py
@@ -47,23 +36,14 @@ RAW → PARSED → FLAT
 ├── docker-compose.yaml
 └── Dockerfile
 
-````
-
----
-
 ## Запуск
 ```bash
 docker compose up --build
-````
-
----
 
 ## Сервисы
 
 * Airflow UI: [http://localhost:8080](http://localhost:8080)
 * PostgreSQL: localhost:5432
-
----
 
 ## Проверка данных
 
@@ -73,8 +53,5 @@ SELECT * FROM nutrition_flat;
 SELECT * FROM daily_values;
 ```
 
----
-
 ## Статус
-
 Проект реализует базовую ETL-логику и предназначен для учебных целей.
