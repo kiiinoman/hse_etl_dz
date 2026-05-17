@@ -4,11 +4,7 @@
 
 <img src="./assets/2026-04-30 141844.png" width="700">
 
-<img src="./assets/2026-04-30 141907.png" width="700">
-
 <img src="./assets/2026-04-30 141925.png" width="700">
-
-<img src="./assets/2026-04-30 141953.png" width="700">
 
 Загрузим json файл в бакет
 
